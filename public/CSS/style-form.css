@@ -1,0 +1,42 @@
+.add-product-form, .edit-product-form, .delete-product-form, .login-form, .register-form, .welcome-message {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1% 20%;
+    text-align: center;
+    margin: 0 0 2% 0;
+    border-bottom: solid 2px black;
+}
+.item-name {
+    padding: 1% 2%;
+    font-weight: bold;
+    border-bottom: solid 2px #666;
+}
+
+.category, .price {
+    padding: .5% 2%;
+}
+
+.data {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.panel {
+    margin: 1%;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    font-size: 1.3rem;
+    margin: 2% 1%;
+}

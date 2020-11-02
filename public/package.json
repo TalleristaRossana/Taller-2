@@ -1,0 +1,22 @@
+{
+  "name": "tienda-linea-lamparas-arte",
+  "version": "1.0.0",
+  "description": "Una pagina de tienda en linea de un emprendimiento de lamparas artesanales",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalleristaRossana/TiendaLineaLamparasArtesanales.git"
+  },
+  "author": "Rossana Palma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TalleristaRossana/TiendaLineaLamparasArtesanales/issues"
+  },
+  "homepage": "https://github.com/TalleristaRossana/TiendaLineaLamparasArtesanales#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

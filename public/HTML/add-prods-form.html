@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Agregar Productos</title>
+    <link href="style-form.css" rel="stylesheet" type="text/css" />
+    <script src="add-prods-script.js"></script>
+  </head>
+  <body>
+    <section>
+
+      <div class="add-product-form">
+          <header class="main-header">Agregar un nuevo producto</header>
+          <form onsubmit="return guardarNumeros()">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Nombre del articulo..."/>
+              <label for="category">Categoria:</label>
+              <input type="text" id="category" placeholder="Categoria..."/>
+              <label for="price">Precio:</label>
+              <input type="text" id="price" placeholder="0.00"/>
+              <button type="button" id="button1" value="Add" onclick="add_element_to_array();">Agregar</button>
+              <a href="#/products">
+                  <button class="button" id="cancel-button">Cancelar</button>
+              </a>
+              <input type="button" id="button2" value="Display" onclick="display_array();"></input>
+              <div id="Result"></div>
+          </form>
+      </div>
+    </section>
+  </body>
+</html>
